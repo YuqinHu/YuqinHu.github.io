@@ -1,0 +1,55 @@
+export const projects = [
+  {
+    title: 'Live Speaker',
+    description:"A dynamic platform enabling users to host and join live sessions, create notes, and review recorded videos alongside audience insights. The app accommodates PDF and PowerPoint uploads, facilitates note sharing via email, and offers friend additions through email entry.",
+    image: '/images/2.png',
+    tags: ['Express', 'AWS', 'EJS', 'Node', 'SQL', 'mocha'],
+    source: 'https://www.youtube.com/watch?v=HslwdqHV16I',
+    visit: 'https://github.com/YuqinHu/LiveSpeaker',
+    sourceAvailable: true,
+    visitAvailable: true,
+    id: 1,
+  },
+  {
+    title: 'SuperHandy',
+    description: "Created a platform using JavaScript for customers to create a profile, post tasks they need help with, and select handymen with related skills to complete the tasks. Customerscan track their task applications, receive email alerts, and get a report of their task records.",
+      image: '/images/1.png',
+      tags: ['Express', 'React', 'Node', 'SCSS', 'HTML', 'Ajax', 'SQL'],
+    source: 'https://google.com',
+    visit: 'https://github.com/YuqinHu/SuperHandy',
+    sourceAvailable: false,
+    visitAvailable: false,
+    id: 0,
+  },
+  {
+    title: 'Buy-Sell-Listing-Website',
+    description: "A buy/sell listing website with a niche-specific focus, allowing buyers to easily find and contact sellers, and with features such as filtering, favouriting, messaging, and admin functions such as posting, removing, marking as sold, and negotiation.",
+    image: '/images/4.png',
+    tags: ['Express', 'EJS', 'Node', 'SCSS', 'HTML', 'SQL'],
+    source: 'https://google.com',
+    visit: 'YuqinHu/Buy-Sell-Listing-Website',
+    sourceAvailable: false,
+    visitAvailable: true,
+    id: 2,
+  },
+  {
+    title: 'Interview Scheduler',
+    description: "A scheduler that users can create, edit and delete interview appointments. Managed data, conducted thorough testing, and ensured error-free functionality for a seamless user experience.",
+      image: '/images/3.png',
+      tags: ['React', 'Node', 'Express', 'SQL', 'Storybook', 'Cypress'],
+    source: 'https://google.com',
+    visit: 'https://github.com/YuqinHu/Interview-Scheduler',
+    sourceAvailable: false,
+    visitAvailable: true,
+    id: 3,
+  },
+
+];
+
+export const TimeLineData = [
+  { year: 2017, text: 'Started my journey', },
+  { year: 2018, text: 'Worked as a freelance developer', },
+  { year: 2019, text: 'Founded JavaScript Mastery', },
+  { year: 2020, text: 'Shared my projects with the world', },
+  { year: 2021, text: 'Started my own platform', },
+];
